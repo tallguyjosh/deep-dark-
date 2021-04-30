@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "oceanexpansion",
+  "version": "${version}",
+
+  "name": "Tallguyjoshs Ocean Expansion",
+  "description": "What lies in the deep...",
+  "authors": [
+    "Tall_guy_josh"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/oceanexpansion/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tallguyjosh.ocean.expansion"
+    ]
+  },
+  "mixins": [
+    "oceanrxpansion.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
